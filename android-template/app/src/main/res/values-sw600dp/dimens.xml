@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DeX/tablet windows have enough room for a denser desktop shell. -->
+    <dimen name="host_padding">24dp</dimen>
+    <dimen name="desktop_min_touch_target">44dp</dimen>
+</resources>

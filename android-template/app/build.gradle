@@ -1,0 +1,29 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'ai.arena.verwin'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'ai.arena.verwin'
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    // Capacitor's generated Gradle files supply the WebView bridge dependency.
+    // Keep release signing outside this source tree; see docs/android-dex.md.
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':capacitor-android')
+}

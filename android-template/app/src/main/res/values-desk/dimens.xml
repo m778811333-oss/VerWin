@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Samsung DeX desk uiMode: preserve desktop-size hit targets. -->
+    <dimen name="host_padding">24dp</dimen>
+    <dimen name="desktop_min_touch_target">42dp</dimen>
+</resources>

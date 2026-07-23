@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wide freeform DeX windows use desktop proportions. -->
+    <dimen name="host_padding">28dp</dimen>
+    <dimen name="desktop_min_touch_target">42dp</dimen>
+</resources>

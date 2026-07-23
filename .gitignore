@@ -1,0 +1,11 @@
+node_modules/
+dist/
+release/
+coverage/
+.vite/
+android/
+*.jks
+*.keystore
+signing.properties
+.DS_Store
+Thumbs.db
